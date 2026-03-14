@@ -1,22 +1,27 @@
 ---
 title: "Fedora Linuxで大西配列をはじめました"
-emoji: "🐙"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
-published: false
+emoji: "🦂"
+type: "tech"
+topics:
+  - "linux"
+  - "fedora"
+  - "大西配列"
+  - "keyd"
+published: true
+published_at: "2026-03-11 11:44"
 ---
-# 大西配列とは
 
+## 大西配列とは
+![Thumbnail](https://storage.googleapis.com/zenn-user-upload/23ae6a808c5e-20260315.jpg)
 [大西配列](https://o24.works/layout/)とは，[大西拓磨](https://o24.works/)というお兄さんがつくっている日本語ローマ字配列です．
 
 私は今回，普段使用しているMacBook Pro (13 inch; Mid 2014) のキーボードを掃除していたらキーキャップの爪を折ってしまったので，新しいキーキャップを買うついでに大西配列に変更しました．
 
-ちなみに私は[彼のYouTube動画](https://youtu.be/Xdq6rDKU8g0)
-を見てこの配列を知りました．この「[好き語り](https://www.youtube.com/@sukigatari)」というチャンネルでは他にも，言語学や競技プログラミング，茶道などに通じた若い研究者や表現者の方が出演していらしてとても興味深いです．
+ちなみに私は[彼のYouTube動画](https://youtu.be/Xdq6rDKU8g0)を見てこの配列を知りました．この「[好き語り](https://www.youtube.com/@sukigatari)」というチャンネルでは他にも，言語学や競技プログラミング，茶道などに通じた若い研究者や表現者の方が出演していらしてとても興味深いです．
 
 私は新しい配列に興味があるというよりも，彼の動画が面白かったので大西配列を試すことにしました．
 
-# 環境
+## 環境
 
 私は以下の環境を使っています．
 
@@ -26,17 +31,17 @@ published: false
 - オペレーティングシステム: Fedora Linux 43 (Workstation Edition)
 	- macOSがアップデートされなくなり，v20系以上のNode.jsが動かなくなったのでLinuxに切り替えました．初期設定時にBroadcom製のWi-Fiを認識させるのが面倒だった点を除いて，FedoraではこれまでMacでやっていたことが驚くほどシンプルに実現できています．
 
-# 導入方法
+## 導入方法
 
 まず，キーキャップを入れ替えます．
-![MacBook Keyboard with O24 Layout](IMG0782.jpeg)
+![MacBook Keyboard with O24 Layout](https://storage.googleapis.com/zenn-user-upload/bd39cf697ff0-20260315.jpeg)
 じゃじゃーん．
 
 次に，[keyd](https://github.com/rvaiya/keyd)というツールでキー配置を設定します．
 
 具体的には，keydをインストール後に以下のファイルを作成し，`/etc/keyd/`に置きます．おそらく皆さんの使用されているキーボードによって細かい調整が必要です．
 
-```
+```conf:/etc/keyd/o24.conf
 # o24.conf
 
 [ids]
@@ -113,10 +118,9 @@ sudo keyd reload
 
 以上です！なんて簡単．
 
-私はオリジナルの大西配列に加え，よく使う記号を打ちやすいように並び替え，また右command⌘キーをbackspace, fnキーをdelete,
-deleteキーをcontrolにしました．
+私はオリジナルの大西配列に加え，よく使う記号を打ちやすいように並び替え，また右command⌘キーをbackspace, fnキーをdelete, deleteキーをcontrolにしました．
 
-# 使い心地
+## 使い心地
 
 大西配列の大きな特徴である「母音が左手，子音が右手」という役割分担以外にも，
 
@@ -135,8 +139,7 @@ deleteキーをcontrolにしました．
 
 個人的には，よく使うT（新しいタブ）R（再読み込み）W（閉じる）N（新規タブ）というショートカットキーも場所が移動してしまったので，どうせならZXCVの位置も最適化されたものもあれば使いたい（なければつくってみるのもいいかも）と思います．
 
-まだ初めて3日ほどなのでタイピング速度は遅いですが（以下のグラフで大きな数値の落ち込みがQWERTY→大西への切り替え;
-縦軸がタイピング速度, 横軸が概ね時間），[このサイト](https://www.e-typing.ne.jp/)に登録した8年ほど前と同水準の200点以上を大西配列で打てるように練習したいです．
-![E-typing](20260307214428.png)
+まだ初めて3日ほどなのでタイピング速度は遅いですが（以下のグラフで大きな数値の落ち込みがQWERTY→大西への切り替え; 縦軸がタイピング速度, 横軸が概ね時間），[このサイト](https://www.e-typing.ne.jp/)に登録した8年ほど前と同水準の200点以上を大西配列で打てるように練習したいです．
+![E-typing](https://storage.googleapis.com/zenn-user-upload/dafa662c5564-20260315.png)
 
 木越 斎

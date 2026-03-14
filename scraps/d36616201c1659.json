@@ -1,0 +1,19 @@
+{
+  "title": "どうしたら眠気を解消できる？",
+  "closed": true,
+  "archived": false,
+  "created_at": "2025-02-08",
+  "comments": [
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-08",
+      "body_markdown": "2024年11月末より私はずっと眠気というか継続的なやる気の無さに襲われている．\n寝室の寒さなどから来る眠気が一つの原因かと思い，睡眠データを取ろうと思う．\nその後，\nhttps://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset\nや\nhttps://sleepresearchsociety.org/career-advancement/public-datasets/\nなどを用いて睡眠の質を予測し，私のやる気の無さが果たして睡眠不全によるものなのか解き明かしたい．",
+      "body_updated_at": "2025-02-08"
+    },
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-08",
+      "body_markdown": "日本各地の過去の外気温については，以下のページで気象庁が提供している．CSVもある．\nhttps://www.data.jma.go.jp/stats/etrn/index.php"
+    }
+  ]
+}

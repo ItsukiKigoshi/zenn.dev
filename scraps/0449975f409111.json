@@ -1,0 +1,47 @@
+{
+  "title": "MiradorをNuxt 3に実装する",
+  "closed": true,
+  "archived": false,
+  "created_at": "2025-02-04",
+  "comments": [
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-04",
+      "body_markdown": "画像ファイルの国際規格[IIIF](https://iiif.io)のビューワー: [Mirador](https://projectmirador.org)をNuxt 3で実装する方法を考える．"
+    },
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-04",
+      "body_markdown": "Nuxt2による先行事例\nhttps://github.com/nakamura196/nuxt-mirador\nhttps://github.com/DigitLib/mirador-nuxt-example"
+    },
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-04",
+      "body_markdown": "https://github.com/nakamura196/nuxt-mirador/blob/master/pages/embedded.vue\nと同じ実装を行おうとすると，\n```\n500\n_interopRequireWildcard is not a function. (In '_interopRequireWildcard(require_react())', '_interopRequireWildcard' is an instance of Object)\n```\n![](https://storage.googleapis.com/zenn-user-upload/889d8acdb520-20250204.png)\nというエラーが吐かれる．dependency (特にreact?)のバージョンに問題があるのかと思い，Reactとreact-domを19,18,17,16系などに変えてみるも上手くいかない．",
+      "body_updated_at": "2025-02-04"
+    },
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-04",
+      "body_markdown": "この回答が少し近そう\nhttps://stackoverflow.com/questions/66327197/how-to-fix-typeerror-interoprequiredefault-is-not-a-function-in-create-react-ap",
+      "children": [
+        {
+          "author": "itsukikigoshi",
+          "created_at": "2025-02-04",
+          "body_markdown": "しかし，この回答の方法（@babel/runtimeのインストール）を試すもエラーは解決せず．"
+        }
+      ]
+    },
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-04",
+      "body_markdown": "今回の問題はMiradorがNuxt 3に対応していないことが原因である可能性に加えて，MiradorがTypeScriptに対応していないことが原因である可能性もある．\n不服だがNuxt2 with JavaScriptで試してみる．TS対応と，MiradorのReact/Vueコンポーネント化してほしい．Mirador 4についても調べてみなくては．",
+      "body_updated_at": "2025-02-05"
+    },
+    {
+      "author": "itsukikigoshi",
+      "created_at": "2025-02-05",
+      "body_markdown": "Tifyを使えばNuxt 3でも簡単に表示できた！\nhttps://github.com/tify-iiif-viewer/tify\n\n![](https://storage.googleapis.com/zenn-user-upload/bb0c89032b99-20250205.png)"
+    }
+  ]
+}
