@@ -49,7 +49,7 @@ published_at: "2026-03-11 11:44"
 
 [main]
 # 1st Row
-1 = 1 
+1 = 1
 2 = 1
 3 = 2
 4 = 3
@@ -62,7 +62,8 @@ published_at: "2026-03-11 11:44"
 minus = 0
 equal = [
 yen = ]
-backspace = oneshot(control)
+backspace = layer(control)
+
 # 2nd Row
 q = q
 w = l
@@ -76,7 +77,9 @@ o = w
 p = r
 [ = y
 ] = p
+
 # 3rd Row
+leftcontrol = layer(fn_layer)
 a = e
 s = i
 d = a
@@ -89,6 +92,7 @@ l = t
 ; = n
 ' = s
 \ = h
+
 # 4th Row
 z = z
 x = x
@@ -101,11 +105,30 @@ m = g
 . = m
 / = j
 ro = b
+
 # 5th Row
-leftmeta = leftmeta
+capslock = layer(control)
+leftalt = layer(alt)
+leftmeta = layer(meta)
+hanja = hanja
+space = space
 hangeul = backspace
 rightmeta = hangeul
 fn = delete
+
+[fn_layer]
+brightnessdown = f1
+brightnessup = f2
+scale = f3
+dashboard = f4
+kbdillumdown = f5
+kbdillumup = f6
+previoussong = f7
+playpause = f8
+nextsong = f9
+mute = f10
+volumedown = f11
+volumeup = f12
 ```
 
 その後，ターミナルで
@@ -118,7 +141,7 @@ sudo keyd reload
 
 以上です！なんて簡単．
 
-私はオリジナルの大西配列に加え，よく使う記号を打ちやすいように並び替え，また右command⌘キーをbackspace, fnキーをdelete, deleteキーをcontrolにしました．
+私はオリジナルの大西配列に加え，よく使う記号を打ちやすいように並び替え，また右command⌘キーをbackspace, fnキーをdelete, controlキーをfn，deleteキーをcontrolにしました．
 
 ## 使い心地
 
@@ -141,5 +164,12 @@ sudo keyd reload
 
 まだ初めて3日ほどなのでタイピング速度は遅いですが（以下のグラフで大きな数値の落ち込みがQWERTY→大西への切り替え; 縦軸がタイピング速度, 横軸が概ね時間），[このサイト](https://www.e-typing.ne.jp/)に登録した8年ほど前と同水準の200点以上を大西配列で打てるように練習したいです．
 ![E-typing](https://storage.googleapis.com/zenn-user-upload/dafa662c5564-20260315.png)
+
+## 追記: 2026/04/11
+使用開始から一ヶ月ほどが経ち，ずいぶんタイピングが上達してきました．タッチタイピングにはまだ及びませんが，私は今もコーディングやメール執筆などで日常的に大西配列を使用しています．
+「使用しています」といっても，キー配置は一度変えてしまうと戻すのが面倒なので，「使うしか他がない」とも言えるでしょう．いずれにせよ子音と母音が交互に打てる大西配列は気持ちが良いです．
+子どもが出来たら新配列で育てようかしら．
+![続・E-Typing](/images/Capture_d’écran_du_2026-04-11_20-15-25.png)
+
 
 木越 斎
