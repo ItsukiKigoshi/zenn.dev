@@ -25,10 +25,10 @@ published_at: "2026-03-11 11:44"
 
 私は以下の環境を使っています．
 
-- コンピュータ: MacBook Pro (13 inch; Mid 2014)
+- コンピュータ: [MacBook Pro (13 inch; Mid 2014)](https://support.apple.com/ja-jp/111942)
     - キーボード: JIS配列
     - おじいちゃんの形見なので発売から11年以上経った今でも大事に使っています．
-- オペレーティングシステム: Fedora Linux 43 (Workstation Edition)
+- オペレーティングシステム: [Fedora Linux 43 (Workstation Edition)](https://fedoraproject.org/workstation/)
 	- macOSがアップデートされなくなり，v20系以上のNode.jsが動かなくなったのでLinuxに切り替えました．初期設定時にBroadcom製のWi-Fiを認識させるのが面倒だった点を除いて，FedoraではこれまでMacでやっていたことが驚くほどシンプルに実現できています．
 
 ## 導入方法
