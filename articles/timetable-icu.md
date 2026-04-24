@@ -116,8 +116,6 @@ https://timetable.icu/
 	- GoogleのreCAPTCHAに関しては，なぜ私たちが無給でWaymoの画像認識精度向上をさせられている（かもしれない，Googleは公式に認めていないので推測に過ぎない）のか分からない．
 		- OpenAIがアフリカの英語話者にGPTの訓練を行わせたために当地の英語のくせがChatGPTに残った\[[出典](https://www.nikkei.com/article/DGXZQOUC190OK0Z10C24A5000000/)\]という話があったが，それでも彼らは給料をもらっていたはずだ．それをなぜGoogleに対しては無料で私たちが？いつもあの横断歩道を選ばされる時にそのことを思うと嫌な気分になる．
 		- しかし，[よく分からん記号がどの角度で置いてあるかを選ぶあの難しすぎる認証](https://blog.lycolia.info/0212)に比べればよっぽどマシかも知れない．もはや知能レベルだけで人間を見分けるのは殆ど不可能なのではないかしら．
-![Cloudflare本社 in San Francisco|471](https://static.zenn.studio/user-upload/973f9523ab1c-20260424.webp =500x)
-*せっかくSan Frainciscoが近いのでCloudflare本社を見に行きました．*
 ### Why DrizzleORM?
 - [Prisma](https://www.prisma.io/)をずいぶん前に入門してよーわからんかった．特にスキーマ定義に使う独自言語．
 	- Drizzleはスキーマ定義をTypeScriptの構文で読めるので読みやすい．
@@ -142,6 +140,8 @@ https://timetable.icu/
 		- 結局GMOのアート投資もNFT流行の一端でIT企業のお金儲けに過ぎないのかしら．もちろん上場企業が投資家に対して投資対象が自社にもたらす利益を説明する責任があるのはわかるけど．（もちろん美術手帖の支援は大事です！図書館で気軽に読める現代アート専門誌って，仏像特集など現代美術ではない特集も組まれる芸術新潮を除けばほぼこの1誌だけなので！！）
 		- Banksyを含めアートマーケットについて書かれた本としては[小崎哲哉『現代アートとは何か』](https://calil.jp/book/4309279295)（河出書房新社）がおすすめです．
 		:::
+![Cloudflare本社 in San Francisco|471](https://static.zenn.studio/user-upload/973f9523ab1c-20260424.webp =500x)
+*せっかくSan Frainciscoが近いのでCloudflare本社を見に行きました．*
 
 ## 今後の課題
 ### ユーザ数の確保
