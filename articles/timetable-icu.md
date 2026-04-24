@@ -89,7 +89,7 @@ https://timetable.icu/
 - [DrizzleORM](https://orm.drizzle.team/): ORM
 - [BetterAuth](https://better-auth.com/): 認証
 - [Bun](https://bun.sh/)（おまけ）: JSランタイム
-- [Coudflare Registrar](https://www.cloudflare.com/products/registrar/)（おまけ）: ドメイン登録業者	
+- [Coudflare Registrar](https://www.cloudflare.com/products/registrar/)（おまけ）: ドメイン登録事業者
 ### Why Astro?
 - ずっとコードの手入れをしてこなかった旧プロジェクト（Next.js）を忘れてAstroに出来たのは良かった．
 	- 開発者として新たなことが学べ，コード負債を一掃できる．
