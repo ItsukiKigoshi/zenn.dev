@@ -1,11 +1,11 @@
 ---
-title: "2025年にイロモネアを放送するなら，100人リアルタイム笑顔判定すれば良いと思うんだ"
-emoji: "💭"
-type: "tech"
+title: 2025年にイロモネアを放送するなら，100人リアルタイム笑顔判定すれば良いと思うんだ
+emoji: 🤖
+type: idea
 topics:
-  - "python"
-  - "opencv"
-  - "facetracking"
+  - python
+  - opencv
+  - facetracking
 published: false
 ---
 

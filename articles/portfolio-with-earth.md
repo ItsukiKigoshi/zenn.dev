@@ -5,7 +5,6 @@ type: "tech"
 topics: []
 published: false
 ---
-
 * 生まれた病院
 * 勤務地
 * 行ってみたい場所
