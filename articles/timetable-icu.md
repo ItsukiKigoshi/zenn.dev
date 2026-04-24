@@ -29,7 +29,7 @@ https://timetable.icu/
 
 今回製作したWebアプリケーションではコース検索とICUの独自スケジュール表示に加え，デバイス間同期などの機能も実装しましたのでその開発の全体像をお見せします．
 
-本アプリのソースコードは[こちら](https://gitlab.com/ItsukiKigoshi/timetable.icu)で公開しており，どなたでも[問題を報告](https://gitlab.com/ItsukiKigoshi/timetable.icu)できます．主に学内者からのコントリビュートを想定しておりますが，それ以外の方でもお気づきの点がありましたらお知らせ願えますと幸いです．
+本アプリのソースコードは[こちら](https://gitlab.com/ItsukiKigoshi/timetable.icu)で公開しており，どなたでも[問題を報告](https://gitlab.com/ItsukiKigoshi/timetable.icu/-/work_items)できます．主に学内者からのコントリビュートを想定しておりますが，それ以外の方でもお気づきの点がありましたらお知らせ願えますと幸いです．
 ## 🤷‍♀️なぜ自作?
 既に世の中に数多ある時間割アプリの自作を決意するに至った理由は以下に主に3つです．
 ### 1. **友人からのリクエスト**
