@@ -161,7 +161,7 @@ https://timetable.icu/
 		- 世の中にある攻撃手法の一端を知れておもしろい．
 		- 彼らはTwitterのリンクを踏んでいたり，あるいは自身がGoogleであると偽装したり色々な特徴があっておもしろい．
 - プライバシーと運用の効率化のバランス
-	- ユーザであれば読み飛ばすような読みにくい[プライバシーポリシー](https://timetable.icu/privacy)を自分でも書いてしまうことに罪悪感を覚える．
+	- 自分がユーザであれば読み飛ばすような読みにくい[プライバシーポリシー](https://timetable.icu/privacy)を自分でも書いてしまうことに罪悪感を覚える．
 		- 最低限，我々が運営のために保存しているデータについては明示している．
 		- ブロックに分けたり要約するなどして，読みやすい規約（[Creative Commons](https://creativecommons.org/)のように[法的な文書](https://creativecommons.org/licenses/by/4.0/legalcode.en)と[一般向け文書](https://creativecommons.org/licenses/by/4.0/)を分けるべきかもしれません）を作っていくのが今後の課題．
 	- 今後管理者が増えたときにどうやってガバナンスを確保していくのかも課題．
