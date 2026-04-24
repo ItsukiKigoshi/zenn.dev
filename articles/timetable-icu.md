@@ -1,3 +1,15 @@
+---
+title: 国際基督教大学の履修計画アプリをAstro + Cloudflare Workers + D1でつくりました
+emoji: 🐦‍🔥
+type: tech
+topics:
+  - Astro
+  - Cloudflare
+  - cloudflareworkers
+  - d1
+  - 大学
+published: false
+---
 ## ["What's This?"](https://www.youtube.com/watch?v=o36k8upu3Ks): 「ICUのじかんわり」
 私が通う国際基督教大学（ICU; 東京・三鷹）の履修計画ツールをつくりました．
 
