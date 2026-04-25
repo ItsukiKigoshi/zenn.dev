@@ -115,13 +115,12 @@ https://timetable.icu/
 		- 彼らは写真を"生成"するが，人間であるところの我々には生成せずともそこに世界があり，ベクトル演算なしでフィルムに焼けばその景色を"写した"ことになるのだから！
 ### Why Cloudflare Workers + D1?
 - 無料で運用できる先として魅力的だった（実際今まで無料で運用している）．
-- 当初はAPI部分をWorkers，Static部分をPagesとしてdeployするものと思っていたがずいぶん前から[2サービスの統合がアナウンス](https://blog.cloudflare.com/ja-jp/pages-and-workers-are-converging-into-one-experience/)されていたのでまとめてWorkersにDeployした.
 - あと，純粋にCloudflareを触ってみたかった．
 	- あらゆる場所で目にする[CAPTCHA代替技術](https://www.cloudflare.com/application-services/products/turnstile/)を生んだり，[Hono](https://hono.dev/)開発者が所属している会社という認識だった．
 	- GoogleのreCAPTCHAに関しては，なぜ私たちが無給でWaymoの画像認識精度向上に貢献させられている（かもしれない，Googleは公式に認めていないので推測に過ぎない）のか分からない．
 		- OpenAIがアフリカの英語話者にGPTの訓練を行わせたために当地の英語のくせがChatGPTに残った\[[出典](https://www.nikkei.com/article/DGXZQOUC190OK0Z10C24A5000000/)\]という話があったが，それでも彼らは給料をもらっていたはずだ．それをなぜGoogleに対しては私たちが無給で？いつもあの横断歩道や信号の写真を選ばされる度にそのことを思うと嫌な気分になる．
 		- しかし，[よく分からん記号がどの角度で置いてあるかを選ぶあの難しすぎる認証](https://blog.lycolia.info/0212)に比べればよっぽどマシかも知れない．もはや知能レベルだけで人間を見分けるのは殆ど不可能なのではないかしら．
-
+- 当初はAPI部分をWorkers，Static部分をPagesとしてdeployするものと思っていたがずいぶん前から[2サービスの統合がアナウンス](https://blog.cloudflare.com/ja-jp/pages-and-workers-are-converging-into-one-experience/)されていたのでまとめてWorkersにDeployした.
 
 ![Cloudflare本社 in San Francisco|471](https://static.zenn.studio/user-upload/973f9523ab1c-20260424.webp =500x)
 *せっかくSan Frainciscoが近いのでCloudflare本社を見に行きました．*
