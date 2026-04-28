@@ -110,10 +110,22 @@ ro = b
 capslock = layer(control)
 leftalt = layer(alt)
 leftmeta = layer(meta)
-hanja = hanja
+
+# IBUS-Anthy
+# hanja = hanja
+
+# IBUS-SKK
+hanja = l
+
 space = space
 hangeul = backspace
-rightmeta = hangeul
+
+# IBUS-Anthy
+# rightmeta = hangeul
+
+# IBUS-SKK
+rightmeta = C-j
+
 fn = delete
 
 [fn_layer]
