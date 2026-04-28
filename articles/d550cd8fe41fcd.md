@@ -111,19 +111,19 @@ capslock = layer(control)
 leftalt = layer(alt)
 leftmeta = layer(meta)
 
-# IBUS-Anthy
+# IBUS-Anthyで「英数」キー, IBUS-Anthy側で設定が必要
 # hanja = hanja
 
-# IBUS-SKK
+# IBUS-SKKで「英数」キー
 hanja = l
 
 space = space
 hangeul = backspace
 
-# IBUS-Anthy
+# IBUS-Anthyで「かな」キー, IBUS-Anthy側での設定が必要
 # rightmeta = hangeul
 
-# IBUS-SKK
+# IBUS-SKKで「かな」キー
 rightmeta = C-j
 
 fn = delete
